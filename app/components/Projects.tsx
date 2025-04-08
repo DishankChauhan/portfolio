@@ -16,7 +16,7 @@ export default function Projects() {
   const projects: ProjectItem[] = [
     {
       name: "Ethereum based Decentralized Voting System",
-      description: "With the release of the OpenAI GPT Store, I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+      description: "Built a secure, transparent, and tamper-proof decentralized voting platform on the Ethereum blockchain. Users can connect their wallets, create proposals, and vote on them in real time. Smart contracts ensure trustless execution, while React and Wagmi provide a seamless Web3 UI. Firebase is used for auxiliary data and storage.",
       period: "Jan 2024 - Feb 2024",
       image: "/projects/eth dao.png",
       technologies: ["reactJS", "TypeScript", "firestoreDB", "Solidity", "TailwindCSS", "firebase Storage", "wagmi"],
@@ -26,7 +26,7 @@ export default function Projects() {
     },
     {
       name: "Kirana Kart",
-      description: "Designed, developed and sold animated UI components for developers.",
+      description: "A modern grocery inventory management store and shoping app tailored for local grocery stores, enabling users to browse products, manage carts, and make payments via Razorpay. Integrated authentication, animated UI components, and real-time product management using Firebase make it scalable and responsive.",
       period: "June 2023 - Present",
       image: "/projects/kiranakart.png",
       technologies: ["reactJS", "TypeScript", "Firestore", "TailwindCSS", "Razorpay", "Shadcn UI", "firebase Storage", "firebase Auth"],
@@ -37,7 +37,7 @@ export default function Projects() {
     },
     {
       name: "insta Chat",
-      description: "Developed an open-source LLM analytics platform for OpenAI.",
+      description: "A real-time messaging app inspired by Instagram’s DM system. Built with Next.js and WebSockets for live communication, and Firestore for message storage. Focused on smooth UI/UX with instant delivery and sync of messages across clients.",
       period: "April 2023 - September 2023",
       image: "/projects/instaChat.png",
       technologies: ["Next.js", "TypeScript", "firestoreDB", "websockets", "Shadcn UI"],
@@ -48,7 +48,7 @@ export default function Projects() {
     },
     {
       name: "SneaksUpp",
-      description: "Customer Support Chatbot which uses AI to automate responses to common support questions.",
+      description: "A Web3 sneaker marketplace where users can buy, sell, and invest in fractional ownership of high-value sneakers. Each sneaker is tokenized on the Ethereum blockchain, allowing users to own shares of a sneaker through secure smart contracts. Built with a clean, responsive frontend using Shadcn UI and a scalable Firebase backend for user data and product management.",
       period: "January 2023 - March 2024",
       image: "/projects/sneaksUpp.png",
       technologies: ["Next.js", "TypeScript", "firestoreDB", "TailwindCSS", "Shadcn UI"],
