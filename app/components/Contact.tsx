@@ -1,11 +1,6 @@
 export default function Contact() {
   return (
     <section className="mb-16 text-center">
-      <div className="inline-block mb-6">
-        <span className="px-3 py-1 text-sm bg-gray-800 text-white rounded-full">
-          
-        </span>
-      </div>
       <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>
       <p className="text-gray-300 mb-8 max-w-lg mx-auto">
         Want to chat? Just shoot me a dm with a direct question on twitter and I'll respond whenever I can. I will ignore all soliciting.
