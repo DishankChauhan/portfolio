@@ -120,7 +120,7 @@ export default function Projects() {
       <ScrollAnimation>
         <div className="flex items-center mb-6">
           <span className="ml-4 px-3 py-1 text-sm bg-gray-800 text-white rounded-full">
-            Featured Projects
+            
           </span>
         </div>
         <p className="text-gray-400 mb-8">

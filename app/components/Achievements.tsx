@@ -22,7 +22,7 @@ export default function Achievements() {
     <section className="mb-16">
       <div className="space-y-8">
         <div>
-          <h3 className="text-xl font-semibold mb-4">Publications</h3>
+          <h3 className="text-xl font-semibold mb-4"></h3>
           <div className="grid gap-6">
             {publications.map((pub, index) => (
               <div key={index} className="bg-gray-900 p-6 rounded-lg">

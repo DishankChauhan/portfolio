@@ -44,9 +44,9 @@ export default function Activities() {
   return (
     <section className="mb-16">
       <div className="flex items-center mb-6">
-        <h2 className="text-3xl font-bold">Activities & Achievements</h2>
+        <h2 className="text-3xl font-bold"></h2>
         <span className="ml-4 px-3 py-1 text-sm bg-gray-200 text-gray-800 dark:bg-gray-800 dark:text-gray-200 rounded-full">
-          Learning & Growing
+          
         </span>
       </div>
       <p className="text-gray-700 dark:text-gray-400 mb-8">
