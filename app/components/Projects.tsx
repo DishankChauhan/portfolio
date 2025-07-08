@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import ScrollAnimation from './ScrollAnimation'
+import Card3D from './Card3D'
 
 interface ProjectItem {
   name: string;
@@ -135,11 +136,7 @@ export default function Projects() {
         animate="show"
       >
         {projects.map((project, index) => (
-          <motion.div 
-            key={index}
-            variants={item}
-            className="group bg-gray-900/50 backdrop-blur-sm rounded-xl overflow-hidden transform transition-all duration-300 hover:scale-[1.02] hover:shadow-xl border border-gray-800 hover:border-primary/50"
-          >
+          <Card3D key={index} className="group bg-gray-900/50 backdrop-blur-sm rounded-xl overflow-hidden transform transition-all duration-300 hover:shadow-xl border border-gray-800 hover:border-primary/50">
             <div className="h-64 relative overflow-hidden">
               {project.displayText ? (
                 <div className="flex items-center justify-center h-full group-hover:scale-110 transition-transform duration-500">
@@ -221,7 +218,7 @@ export default function Projects() {
                 )}
               </div>
             </div>
-          </motion.div>
+          </Card3D>
         ))}
       </motion.div>
 

@@ -10,6 +10,8 @@
     --secondary: 16 185 129;
     --accent: 244 63 94;
     --muted: 241 245 249;
+    --mouse-x: 50%;
+    --mouse-y: 50%;
   }
 
   .dark {
@@ -59,6 +61,28 @@
 .animate-wave {
   animation: wave 1.5s infinite;
   transform-origin: 70% 70%;
+}
+
+/* 3D Effects */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Card hover effect */
+.card-hover-effect {
+  transition: transform 0.3s ease;
+}
+
+.card-hover-effect:hover {
+  transform: translateZ(20px);
 }
 
 /* Scrollbar styling */
