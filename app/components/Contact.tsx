@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="mb-16 text-center">
       <div className="inline-block mb-6">
         <span className="px-3 py-1 text-sm bg-gray-800 text-white rounded-full">
-          Contact
+          
         </span>
       </div>
       <h2 className="text-4xl font-bold mb-6">Get in Touch</h2>

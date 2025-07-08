@@ -15,12 +15,10 @@ export default function Education() {
       period: "2020 - 2024",
       logo: "/logos/Manipal Logo.png"
     },
-    
   ];
 
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-6">Education</h2>
       <div className="space-y-8">
         {education.map((edu, index) => (
           <div key={index} className="flex items-center gap-4">

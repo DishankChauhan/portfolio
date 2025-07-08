@@ -47,7 +47,6 @@ export default function Experience() {
 
   return (
     <section className="mb-16">
-      <h2 className="text-3xl font-bold mb-6">Work Experience</h2>
       <div className="space-y-12">
         {experiences.map((exp, index) => (
           <div key={index} className="flex flex-col gap-4">
