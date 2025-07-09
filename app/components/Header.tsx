@@ -62,7 +62,7 @@ export default function Header() {
             Follow on X
           </a>
           <a 
-            href="https://drive.google.com/file/d/1jam-Q1GH-GjpvU86UuKKGELvaQkVbM5Z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tOtsPiXplg1l6m6W4OqA7Df9t7ry7pGI/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-full font-medium transition-colors"
